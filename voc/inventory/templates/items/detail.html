@@ -1,0 +1,25 @@
+{% extends "eoc/base.html" %}
+
+
+{% block main %}
+  <h1>{{ item.name }}</h1>
+  <hr>
+
+
+ {% for attribute in item %}
+                {% if attribute == "url" %}
+                <p>{{attribute}}: <a href="{{ url_for('inventory.detail', url=item.url) }}">{{ item.name }}</a></p>
+                {% elif attribute == "id" %}
+                <p>QR Code: <a href="/qrservice/{{item.url}}/">QRcode</a></p>
+                {% elif attribute.startswith("_") %}
+
+                {% else %}
+                <p>{{attribute}}: {{ item[attribute] }}</p>
+                {% endif %}
+
+            {% endfor %}
+
+  <hr>
+<img src="{{ qrcode(url_for('inventory.detail', url=item.url)) }}">
+
+{% endblock %}

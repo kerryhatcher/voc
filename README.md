@@ -1,2 +1,0 @@
-# voc
-Virtual Operations Center

@@ -1,0 +1,47 @@
+{% extends "eoc/base.html" %}
+
+{% block main %}
+<h1>Inventory</h1>
+
+
+
+    <table class="table table-striped table-bordered table-hover model-list">
+        <thead>
+
+
+    {% for item in items %}
+
+
+<tr>
+        {% for attro in item %}
+                {% if attro == "id" %}
+                <th>QRcode</th>
+                {% elif attro.startswith("_") %}
+
+                {% else %}
+                <th class="col-md-1">{{ attro }} </th>
+                {% endif %}
+
+        {% endfor %}
+    </tr>
+
+    {% endfor %}
+        </thead>
+            {% for item in items %}
+        <tr>
+            {% for attribute in item %}
+                {% if attribute == "url" %}
+                <td><a href="{{ url_for('inventory.detail', url=item.url) }}">{{ item.name }}</a></td>
+                {% elif attribute == "id" %}
+                <td><a href="/qrservice/{{item.url}}/">QRcode</a></td>
+                {% elif attribute.startswith("_") %}
+
+                {% else %}
+                <td>{{ item[attribute] }}</td>
+                {% endif %}
+
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
