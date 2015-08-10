@@ -12,7 +12,7 @@ def read(*paths):
 
 setup(
     name='voc',
-    version='0.0.3',
+    version='0.0.4',
     install_requires=[
         "beautifulsoup4",
         "blinker",
