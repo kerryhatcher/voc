@@ -10,8 +10,6 @@ from flask_menu import Menu, register_menu
 
 
 app = Flask(__name__)
-app.config["MONGODB_SETTINGS"] = {'DB': "inventory"}
-app.config["SECRET_KEY"] = "KeepThisS3cr3t"
 es = FlaskElasticsearch(app)
 db = MongoEngine(app)
 Bootstrap(app)
