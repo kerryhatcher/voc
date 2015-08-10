@@ -2,7 +2,7 @@ __author__ = 'khatcher'
 
 import os
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 def read(*paths):
     """Build a file path from *paths* and return the contents."""
@@ -11,29 +11,26 @@ def read(*paths):
 
 setup(
     name='voc',
-    version='0.1.0',
+    version='0.0.1',
     description='Web based virutal operations center for tactical or emergencies',
     long_description=(read('README.rst') + '\n\n' +
                       read('HISTORY.rst') + '\n\n' +
                       read('AUTHORS.rst')),
-    url='http://github.com/hynek/pem/',
-    license='MIT',
-    author='Hynek Schlawack',
+    url='https://github.com/kerryhatcher/voc',
+    license='GNU AFFERO GPL v3',
+    author='Kerry Hatcher',
     author_email='hs@ox.cx',
-    py_modules=['pem'],
+    packages=find_packages(exclude=['tests*']),
     include_package_data=True,
     classifiers=[
-        'Development Status :: 5 - Production/Stable',
-        'Intended Audience :: Developers',
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Other Audience',
         'Natural Language :: English',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
+        'License :: OSI Approved :: GNU Affero General Public License v3',
+        'Operating System :: POSIX :: Linux',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Topic :: Software Development :: Libraries :: Python Modules',
     ],
 )

@@ -2,57 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88461ef1-d04d-4347-8e23-2141c118b8d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.bumpversion.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AUTHORS.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HISTORY.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.rst" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/__init__.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/activation_status/__init__.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/inventory/__init__.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/qrservice/__init__.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/weather/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/activation_status/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/inventory/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/qrservice/__init__.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/api.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/templates/eoc/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/templates/eoc/base.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/static/css/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/static/css/dashboard.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/inventory/templates/items/detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/inventory/templates/items/detail.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/activation_status/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/activation_status/forms.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/activation_status/helpers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/activation_status/helpers.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/activation_status/templates/act_status/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/templates/eoc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/activation_status/templates/act_status/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/templates/eoc/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/inventory/templates/inventory_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/inventory/templates/inventory_list.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/inventory/templates/items/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/inventory/templates/items/list.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/qrservice/templates/qrservice/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/qrservice/templates/qrservice/main.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/manage.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/activation_status/models.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/inventory/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/activation_status/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/inventory/models.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/activation_status/templates/status.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/activation_status/templates/status.svg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/activation_status/templates/statuschange.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/activation_status/templates/statuschange.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/views.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../neteoc/voc/inventory/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voc/inventory/views.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5thwebtoc/webtoc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../neteoc/tests/test.py" afterPath="$PROJECT_DIR$/../neteoc/tests/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="voc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,7 +46,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/voc$manage.coverage" NAME="manage Coverage Results" MODIFIED="1439212584405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/voc$manage.coverage" NAME="manage Coverage Results" MODIFIED="1439213115314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -77,40 +57,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/voc/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="e#26#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/voc/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/voc/templates/eoc/base.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -165,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="39" />
               <folding>
                 <element signature="e#25#34#0" expanded="true" />
               </folding>
@@ -173,10 +119,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".bumpversion.cfg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AUTHORS.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AUTHORS.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".bumpversion.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.bumpversion.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12698413">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
@@ -200,8 +176,8 @@
       <list>
         <option value="$PROJECT_DIR$/bin/manage.py" />
         <option value="$PROJECT_DIR$/voc/__init__.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/.bumpversion.cfg" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -267,7 +243,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
@@ -676,20 +652,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.bumpversion.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HISTORY.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="39" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.bumpversion.cfg">
+    <entry file="file://$PROJECT_DIR$/AUTHORS.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12698413">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
