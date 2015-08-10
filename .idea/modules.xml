@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../5thwebtoc/.idea/5thwebtoc.iml" filepath="$PROJECT_DIR$/../5thwebtoc/.idea/5thwebtoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../neteoc/.idea/neteoc.iml" filepath="$PROJECT_DIR$/../neteoc/.idea/neteoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/voc.iml" filepath="$PROJECT_DIR$/.idea/voc.iml" />
+    </modules>
+  </component>
+</project>
