@@ -11,7 +11,7 @@ def read(*paths):
 
 setup(
     name='voc',
-    version='0.0.1',
+    version='0.0.2',
     description='Web based virutal operations center for tactical or emergencies',
     long_description=(read('README.rst') + '\n\n' +
                       read('HISTORY.rst') + '\n\n' +
