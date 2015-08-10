@@ -6,6 +6,7 @@ from flask.ext.mongoengine import MongoEngine
 from flask_bootstrap import Bootstrap
 from flask.ext.elasticsearch import FlaskElasticsearch
 from flask_menu import Menu, register_menu
+from helpers import SiteName
 
 
 
@@ -30,7 +31,7 @@ def register_blueprints(app):
 
 
 register_blueprints(app)
-
+SiteName(app=app)
 
 
 if __name__ == "__main__":

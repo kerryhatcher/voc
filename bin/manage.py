@@ -9,6 +9,10 @@ from flask.ext.script import Manager, Server
 
 from voc import app
 
+app.config["MONGODB_SETTINGS"] = {'DB': "voc"}
+app.config["SECRET_KEY"] = "KeepThisS3cr3t"
+app.config["SITE_NAME"] = "VOC"
+
 manager = Manager(app)
 
 # Turn on debugger by default and reloader

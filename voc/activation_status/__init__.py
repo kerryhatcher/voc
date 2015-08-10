@@ -7,6 +7,11 @@ from flask import Blueprint, request, render_template, make_response
 
 from PIL import ImageFont
 
+from flask import send_file
+from StringIO import StringIO
+
+
+
 from helpers import serve_pil_image, make_image
 from forms import ChangeStatusForm
 from models import Status
@@ -15,9 +20,6 @@ StatusApp = Blueprint('StatusApp', __name__,
                     template_folder='templates')
 
 bp_path = StatusApp.root_path
-
-
-
 
 
 
@@ -43,6 +45,7 @@ def templated_svg():
     response = make_response(svg)
     response.content_type = 'image/svg+xml'
     return response
+
 
 
 @StatusApp.route('/', methods=('GET', 'POST'))
