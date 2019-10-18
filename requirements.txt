@@ -7,7 +7,7 @@ elasticsearch==1.6.0
 Eve==0.4
 Eve-Mongoengine==0.0.9
 Events==0.2.1
-Flask==0.10.1
+Flask==1.0
 Flask-Admin==1.2.0
 flask-admin-s3-upload==0.1.1
 Flask-Bootstrap==3.3.5.6
